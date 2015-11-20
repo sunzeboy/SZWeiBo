@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  SZWeiBo
+
+  Created by sunze on 15/11/19.
+  Copyright © 2015年 sunzeboy. All rights reserved.
+*/
+"home" = "主页";
+"message" = "消息";
+"discover" = "发现";
+"profile" = "我的";
+"people all search" = "大家都是搜";

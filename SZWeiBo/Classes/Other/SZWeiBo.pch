@@ -1,0 +1,38 @@
+//
+//  SZWeiBo.pch
+//  SZWeiBo
+//
+//  Created by sunze on 15/11/19.
+//  Copyright © 2015年 sunzeboy. All rights reserved.
+//
+
+#ifndef SZWeiBo_pch
+#define SZWeiBo_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "UIView+Frame.h"
+#import "UIImage+Image.h"
+
+#define SZKeyWindow [UIApplication sharedApplication].keyWindow
+#define SZKWidth   [UIScreen mainScreen].bounds.size.width
+#define SZKHeight   [UIScreen mainScreen].bounds.size.height
+
+
+// ...表示宏定义的可变参数
+// __VA_ARGS__:表示函数里面的可变参数
+#ifdef DEBUG // 调试
+
+#define SZLog(...) NSLog(__VA_ARGS__)
+
+#else // 发布
+
+#define SZLog(...)
+
+#endif
+
+
+
+
+#endif /* SZWeiBo_pch */
